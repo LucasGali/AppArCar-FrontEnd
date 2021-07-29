@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegistrationForm renders default form according to snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="card register-card mt-2"
+  >
+    <svg
+      class="locationIconForm"
+      height="70"
+      style="display: inline-block; vertical-align: middle;"
+      viewBox="0 0 1024 1024"
+      width="70"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"
+        style="fill: #444;"
+      />
+    </svg>
+    <form>
+      <div
+        class="form-group text-left"
+      >
+        <label
+          for="InputName"
+        >
+          Nombre
+        </label>
+        <input
+          class="form-control"
+          data-testid="input-name"
+          id="name"
+          placeholder="Ingresar Nombre"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group text-left"
+      >
+        <label
+          for="InputSurname"
+        >
+          Apellido
+        </label>
+        <input
+          class="form-control"
+          data-testid="input-surname"
+          id="surname"
+          placeholder="Ingresar Apellido"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="form-group text-left"
+      >
+        <label
+          for="InputMail"
+        >
+          Dirección de Email
+        </label>
+        <input
+          aria-describedby="emailHelp"
+          class="form-control"
+          data-testid="input-email"
+          id="email"
+          placeholder="Ingresar email"
+          required=""
+          type="email"
+          value=""
+        />
+        <small
+          class="form-text text-muted"
+          id="emailHelp"
+        />
+      </div>
+      <div
+        class="form-group text-left"
+      >
+        <label
+          for="InputPassword"
+        >
+          Contraseña
+        </label>
+        <div
+          class="eye-wrapper"
+        >
+          <input
+            class="form-control password-box"
+            data-testid="input-password"
+            id="password"
+            placeholder="Ingresar Contraseña"
+            type="password"
+            value=""
+          />
+          <i
+            class="eye-signup"
+          >
+            <svg
+              class=""
+              height="25"
+              style="display: inline-block; vertical-align: middle;"
+              viewBox="0 0 1024 1024"
+              width="25"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M945.942 14.058c-18.746-18.744-49.136-18.744-67.882 0l-202.164 202.164c-51.938-15.754-106.948-24.222-163.896-24.222-223.318 0-416.882 130.042-512 320 41.122 82.124 100.648 153.040 173.022 207.096l-158.962 158.962c-18.746 18.746-18.746 49.136 0 67.882 9.372 9.374 21.656 14.060 33.94 14.060s24.568-4.686 33.942-14.058l864-864c18.744-18.746 18.744-49.138 0-67.884zM416 320c42.24 0 78.082 27.294 90.92 65.196l-121.724 121.724c-37.902-12.838-65.196-48.68-65.196-90.92 0-53.020 42.98-96 96-96zM110.116 512c38.292-60.524 89.274-111.924 149.434-150.296 3.918-2.5 7.876-4.922 11.862-7.3-9.962 27.328-15.412 56.822-15.412 87.596 0 54.89 17.286 105.738 46.7 147.418l-60.924 60.924c-52.446-36.842-97.202-83.882-131.66-138.342z"
+                style="fill: #444;"
+              />
+              <path
+                d="M768 442c0-27.166-4.256-53.334-12.102-77.898l-321.808 321.808c24.568 7.842 50.742 12.090 77.91 12.090 141.382 0 256-114.618 256-256z"
+                style="fill: #444;"
+              />
+              <path
+                d="M830.026 289.974l-69.362 69.362c1.264 0.786 2.53 1.568 3.786 2.368 60.162 38.374 111.142 89.774 149.434 150.296-38.292 60.522-89.274 111.922-149.436 150.296-75.594 48.218-162.89 73.704-252.448 73.704-38.664 0-76.902-4.76-113.962-14.040l-76.894 76.894c59.718 21.462 123.95 33.146 190.856 33.146 223.31 0 416.876-130.042 512-320-45.022-89.916-112.118-166.396-193.974-222.026z"
+                style="fill: #444;"
+              />
+            </svg>
+          </i>
+        </div>
+      </div>
+      <div
+        class="form-group text-left"
+      >
+        <label
+          for="InputConfirmPassword"
+        >
+          Confirmar Contraseña
+        </label>
+        <div
+          class="eye-wrapper"
+        >
+          <input
+            class="form-control password-box"
+            data-testid="input-password-confirm"
+            id="confirmPassword"
+            placeholder="Confirmar Contraseña"
+            type="password"
+            value=""
+          />
+          <i
+            class="eye-signup"
+          >
+            <svg
+              class=""
+              height="25"
+              style="display: inline-block; vertical-align: middle;"
+              viewBox="0 0 1024 1024"
+              width="25"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M945.942 14.058c-18.746-18.744-49.136-18.744-67.882 0l-202.164 202.164c-51.938-15.754-106.948-24.222-163.896-24.222-223.318 0-416.882 130.042-512 320 41.122 82.124 100.648 153.040 173.022 207.096l-158.962 158.962c-18.746 18.746-18.746 49.136 0 67.882 9.372 9.374 21.656 14.060 33.94 14.060s24.568-4.686 33.942-14.058l864-864c18.744-18.746 18.744-49.138 0-67.884zM416 320c42.24 0 78.082 27.294 90.92 65.196l-121.724 121.724c-37.902-12.838-65.196-48.68-65.196-90.92 0-53.020 42.98-96 96-96zM110.116 512c38.292-60.524 89.274-111.924 149.434-150.296 3.918-2.5 7.876-4.922 11.862-7.3-9.962 27.328-15.412 56.822-15.412 87.596 0 54.89 17.286 105.738 46.7 147.418l-60.924 60.924c-52.446-36.842-97.202-83.882-131.66-138.342z"
+                style="fill: #444;"
+              />
+              <path
+                d="M768 442c0-27.166-4.256-53.334-12.102-77.898l-321.808 321.808c24.568 7.842 50.742 12.090 77.91 12.090 141.382 0 256-114.618 256-256z"
+                style="fill: #444;"
+              />
+              <path
+                d="M830.026 289.974l-69.362 69.362c1.264 0.786 2.53 1.568 3.786 2.368 60.162 38.374 111.142 89.774 149.434 150.296-38.292 60.522-89.274 111.922-149.436 150.296-75.594 48.218-162.89 73.704-252.448 73.704-38.664 0-76.902-4.76-113.962-14.040l-76.894 76.894c59.718 21.462 123.95 33.146 190.856 33.146 223.31 0 416.876-130.042 512-320-45.022-89.916-112.118-166.396-193.974-222.026z"
+                style="fill: #444;"
+              />
+            </svg>
+          </i>
+        </div>
+      </div>
+      <div
+        class="form-group text-left"
+      >
+        <label
+          for="InputvehicleType"
+        >
+          Tipo de Vehículo
+        </label>
+        <select
+          class="form-control"
+          data-testid="vehicle-select"
+          required=""
+        >
+          <option>
+            Elegir tipo de Vehículo
+          </option>
+          <option
+            value="motorbike"
+          >
+            Moto
+          </option>
+          <option
+            value="car"
+          >
+            Auto
+          </option>
+          <option
+            value="truck"
+          >
+            Camioneta
+          </option>
+        </select>
+      </div>
+      <div
+        class="form-group text-left"
+      >
+        <label
+          for="InputvehiclePlate"
+        >
+          Patente
+        </label>
+        <input
+          class="form-control"
+          data-testid="input-vehicleplate"
+          id="vehiclePlate"
+          placeholder="Patente"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="alert alert-danger alert-dismissable mt-4 alert-msg"
+        id="alertPopUp"
+        role="alert"
+        style="display: none;"
+      >
+        <div
+          class="d-flex"
+        >
+          <span
+            data-testid="alert-msg"
+          />
+          <button
+            aria-label="Close"
+            class="close ml-2"
+            data-testid="alert-btn"
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ×
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="btn-reg-wrapper"
+      >
+        <button
+          class="btn btn-registration"
+          data-testid="submit-registration"
+          type="submit"
+        >
+          Crear Cuenta
+        </button>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+.btn-openModal {
+  background: black;
+  color: #eee;
+  font-size: 1rem;
+  padding: 0.3rem 1.3rem;
+  outline: none;
+  cursor: pointer;
+  border-color: black;
+}
+
+.btn-cancel-reserve {
+  color: #eee;
+  font-size: 1rem;
+  padding: 0.3rem 1.3rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.modal-wrapper {
+  width: 500px;
+  transition: all 0.5s;
+  position: fixed;
+  margin-left: 200px;
+  top: 50vh;
+  left: 30vw;
+  transform: translate(-50%, -50%);
+  z-index: 60;
+  display: inline-flex;
+}
+
+.modal-header {
+  background: black;
+  color: #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .modal-content {
+  background-image: url('../../img/city.jpg');
+  background-size: 140%;
+} */
+
+/* .close-modal-btn {
+  font-size: 1.3rem;
+  margin-left: 21.5rem;
+  margin-top: 0rem;
+  color: black;
+  cursor: pointer;
+} */
+
+.modal-body h6 {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.btn-cancel {
+  display: block;
+  font-size: 1rem;
+  margin-left: 9.5rem;
+  margin-bottom: 0.8rem;
+  padding: 0.1rem 1rem;
+  background: black;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.back-drop {
+  background: grey;
+  height: 178vh;
+  position: absolute;
+  transition: all 0.5s;
+  width: 100%;
+  opacity: 0.5;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  /* right: 0px; */
+}
+
+@media only screen and (max-height: 900px) {
+  .modal-wrapper {
+    top: 30vh;
+    left: 20vw;
+  }
+}

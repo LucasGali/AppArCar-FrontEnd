@@ -1,0 +1,47 @@
+.home-view {
+  height: 100%;
+}
+
+.home-view .city-container {
+  text-align: center;
+  background-image: url('../../img/city2.png');
+  height: 20vh;
+  margin: 0;
+  color: #111;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 5px 0 0;
+  padding: 10px 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.home-container {
+  height: 100vh;
+}
+
+.home-container h1 {
+  text-align: center;
+}
+
+.box {
+  width: 100%;
+  background-color: rgb(66, 61, 61);
+}
+
+.home-map-wrapper {
+  width: 99vw;
+  height: 40vh;
+}
+
+.home-footer {
+  margin-top: 30px;
+}
+
+@media only screen and (max-height: 900px) {
+  .home-view .city-container {
+    height: 30vh;
+  }
+}

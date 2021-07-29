@@ -1,0 +1,12 @@
+.not-found-view {
+  height: 86.5vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-height: 900px) {
+  .not-found-view {
+    height: 80vh;
+  }
+}

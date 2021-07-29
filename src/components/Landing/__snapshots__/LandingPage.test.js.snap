@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingSection renders default form according to snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="landing-section"
+  >
+    <h1 />
+    <p />
+    <p />
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,50 @@
+#parktab {
+  text-align: center;
+  margin: 0;
+}
+
+.search-wrapper {
+  display: flex;
+  width: 30%;
+  font-size: 20px;
+  margin: 0 10px 10px;
+}
+
+i.search-icon {
+  height: calc(1.5em + 0.75rem + 2px);
+  padding-left: 6px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-right: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  display: flex;
+  align-items: center;
+}
+
+i:hover {
+  cursor: auto;
+}
+
+.search-wrapper input {
+  border-left: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ced4da;
+}
+
+.spinner {
+  position: relative;
+  top: 20vh;
+}

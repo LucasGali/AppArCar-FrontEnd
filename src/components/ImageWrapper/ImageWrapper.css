@@ -1,0 +1,10 @@
+.logos-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logos-wrapper img{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}

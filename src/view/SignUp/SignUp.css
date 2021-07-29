@@ -1,0 +1,61 @@
+.signup-view {
+  height: 100vh;
+}
+
+.sign-up-wrapper {
+  display: flex;
+}
+
+.sign-up-msg {
+  margin-top: 15rem;
+  margin-left: 5rem;
+  width: 40vw;
+}
+
+.sign-up-msg p {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.sign-up-form {
+  width: 50vw;
+  padding: 5vw;
+}
+
+.signup-footer {
+  position: flex;
+  width: 100%;
+  bottom: 0;
+}
+
+@media only screen and (max-height: 900px) {
+  .signup-view {
+    height: 140vh;
+  }
+  .sign-up-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .sign-up-msg {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    align-items: flex-end;
+  }
+  .sign-up-form {
+    width: 95vw;
+    padding: 5vw;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
+    padding-top: 0px;
+  }
+  .signup-footer {
+    position: absolute;
+    width: 100%;
+    height: 5vh;
+    bottom: auto;
+  }
+}

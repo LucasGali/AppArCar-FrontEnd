@@ -1,0 +1,19 @@
+.not-found-wrapper {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  background-image: url(//www.toptal.com/designers/subtlepatterns/patterns/symphony.png);
+  background-position: bottom;
+  animation: 4s linear 0s infinite bp;
+}
+
+.not-found-wrapper h3 {
+  margin: 15px;
+}
+
+.footer-link {
+  color: black;
+  text-decoration: none;
+}

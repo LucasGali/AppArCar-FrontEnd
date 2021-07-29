@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBarComponent renders default form acording to snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <nav
+      class="navbar"
+      data-testid="navbar"
+    >
+      <div>
+        <svg
+          class="icons-nav-user"
+          height="30"
+          style="display: inline-block; vertical-align: middle;"
+          viewBox="0 0 1024 1024"
+          width="30"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"
+            style="fill: white;"
+          />
+        </svg>
+        <span>
+          AppArCar
+        </span>
+      </div>
+      <div>
+        <button
+          class="btn-sigin-signup btn  my-2 my-sm-0"
+          data-testid="signin-button"
+        >
+          Ingresar
+        </button>
+        <button
+          class="btn btn-sigin-signup my-2 my-sm-0 "
+        >
+          Registrarse
+        </button>
+      </div>
+    </nav>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,40 @@
+.landing-section {
+  height: 100%;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+}
+
+.landing-section h1 {
+  align-self: center;
+}
+
+.landing-section h1::after {
+  border-bottom: solid 2px #287ef4;
+  width: 70px;
+  content: '';
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 30px auto 35px;
+}
+
+.landing-section p {
+  margin: 20px;
+  align-self: center;
+}
+
+@media only screen and (max-width: 500px) and (max-height: 850px) {
+  .landing-section {
+    width: 100vw;
+    height: 45vh;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .landing-section {
+    height: 29vh;
+    margin: 5px;
+  }
+}

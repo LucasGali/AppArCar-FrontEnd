@@ -1,0 +1,25 @@
+.App {
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  background-image: url(//www.toptal.com/designers/subtlepatterns/patterns/symphony.png);
+  background-position: bottom;
+  animation: 4s linear 0s infinite bp;
+}
+
+@keyframes bp {
+  from {
+    background-position: 198px 0;
+  }
+
+  to {
+    background-position: 0 198px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .App {
+    height: auto;
+    width: auto;
+  }
+}

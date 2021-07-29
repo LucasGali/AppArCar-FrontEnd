@@ -1,0 +1,68 @@
+.profile-card .main-card,
+.vehicle-card {
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+}
+
+.profile-card .vehicle-card {
+  margin-top: 20px;
+}
+
+.main-card h1 {
+  margin: 0;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.main-card h1::after {
+  border-bottom: solid 2px #287ef4;
+  width: 70px;
+  content: '';
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 3px auto 3px;
+}
+
+.profile-card .card-body {
+  padding-top: 0;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-size: 30px;
+}
+
+.card-subtitle {
+  font-size: 20px;
+}
+
+#vehicle-edition {
+  background-image: url('../../img/city.jpg');
+  background-size: cover;
+}
+
+.savebtn {
+  margin-left: 6px;
+  margin-top: 15px;
+  padding: 6px;
+}
+
+.closebtn {
+  padding: 6px;
+  margin-top: 15px;
+}
+
+.form-select {
+  margin-bottom: 6px;
+}

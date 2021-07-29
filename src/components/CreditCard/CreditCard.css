@@ -1,0 +1,100 @@
+.credit-card.card {
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+}
+
+.credit-body {
+  flex-direction: column;
+  display: flex;
+}
+
+#card-img form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.credit-card.card h1 {
+  margin: 0;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.credit-card.card h1::after {
+  border-bottom: solid 2px #287ef4;
+  width: 70px;
+  content: '';
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 3px auto 3px;
+}
+
+.credit-card .card-body {
+  padding-top: 0;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-size: 30px;
+}
+
+.card-subtitle {
+  font-size: 20px;
+}
+
+.input-wrapper {
+  display: flex;
+  margin-top: 10px;
+}
+
+.card-text-items {
+  text-transform: capitalize;
+}
+
+.input-wrapper label {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.long-input {
+  width: 20vw;
+}
+
+.short-input {
+  width: 10vw;
+}
+
+.card-submit {
+  margin: 20px 10px 0;
+  align-self: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .input-wrapper {
+    flex-direction: column;
+  }
+  .long-input {
+    width: 40vw;
+    align-items: center;
+  }
+
+  .short-input {
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-height: 900px) {
+}

@@ -1,0 +1,45 @@
+.navbar {
+  background-color: black;
+  color: white;
+}
+
+.navbar span {
+  margin-left: 10px;
+}
+
+.nav-wrapper-icons ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-wrapper-icons ul li {
+  margin-left: 10px;
+}
+
+.navbar button {
+  color: white;
+}
+
+.navbar button:hover {
+  color: bisque;
+}
+
+button.btn-sigin-signup {
+  border: 1px solid black;
+  margin-right: 5px;
+}
+
+.sign-off {
+  display: flex;
+  align-self: flex-end;
+}
+
+@media only screen and (max-height: 900px) {
+  .navbar {
+    padding: 0rem 1rem;
+  }
+  .nav-item span .icons-nav-user {
+    height: 25px;
+    width: 25px;
+  }
+}

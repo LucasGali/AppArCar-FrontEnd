@@ -1,0 +1,31 @@
+i.eye-edit {
+  align-self: center;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  align-self: center;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  border-left: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+i:hover {
+  color: #00fcb6;
+  cursor: pointer;
+}
+
+.modal-header .close {
+  color: white;
+}
+
+@media only screen and (max-height: 900px) {
+  .btn-registration {
+    right: -120px;
+  }
+
+  i.eye-signup {
+    top: 63%;
+    right: 10%;
+  }
+}
